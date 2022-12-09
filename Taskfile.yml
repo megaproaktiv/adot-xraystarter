@@ -27,6 +27,7 @@ tasks:
 
 
   bootstrap:
+    deps: [app:build]
     desc: CDK bootstrap (for beginners)
     vars:
       ALIAS: 

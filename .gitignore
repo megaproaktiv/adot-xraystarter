@@ -1,5 +1,4 @@
 app/.task
-dist
 .vscode
 .DS_Store
 *.code-workspace
@@ -7,13 +6,13 @@ dist
 !jest.config.js
 *.d.ts
 node_modules
-
-# CDK asset staging directory
 .cdk.staging
 cdk.out
-lambda/go/dist
-.DS_Store
-lambda/py/dist
 lambda/py/package
-lambda/ts/dist
 .vscode
+lambda/py/dist/my-deployment-package.zip
+lambda/py/dist/app.zip
+lambda/go/dist/bootstrap
+lambda/go/dist/main.zip
+lambda/ts/dist/index.js.map
+lambda/ts/dist/index.zip

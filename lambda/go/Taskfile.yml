@@ -1,0 +1,32 @@
+# https://taskfile.dev
+
+## Build Management only for go
+
+version: '3'
+
+env:
+  AWS_DEFAULT_REGION: eu-central-1
+
+tasks:
+  default:
+    deps: [build]
+
+  build:
+    desc: build go
+    cmds:
+      - env GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -o dist/main main/main.go
+      - chmod +x dist/main
+      - mv dist/main dist/bootstrap
+      - cd dist && zip main.zip bootstrap      
+    silent: true
+
+  fastdeploy:
+    desc: Deploy only lambda
+    deps: [build]
+    vars:
+      FN:      
+        sh: aws cloudformation list-exports --query "Exports[?Name == 'adotstarter-GO-name'].Value" --output text
+    cmds:
+      - aws lambda update-function-code --function-name  {{.FN}} --zip-file fileb://dist/main.zip
+
+

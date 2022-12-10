@@ -3,7 +3,6 @@ import * as AWS from 'aws-sdk';
 
 
 AWS.config.update({
-  region: "eu-central-1", 
   apiVersions: {
     dynamodb: '2012-08-10',
   }

@@ -1,5 +1,7 @@
 # Start XRay with lambda TypeScript/Python/Go using ADOT  
 
+Blog post explaining some [background](https://www.tecracer.com/blog/2022/12/spy/adot/)
+
 ADOT=AWS Distro for OpenTelemetry
 
 ## Walkthrough

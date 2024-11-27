@@ -3,7 +3,9 @@
 version: '3'
 
 vars:
-  GREETING: Hello, World!
+  cidr: 
+    sh: aws ssm get-parameter --name "/vpc/cidr" --query Parameter.Value --output text      
+
 
 tasks:
   build:

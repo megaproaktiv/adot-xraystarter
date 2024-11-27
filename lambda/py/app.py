@@ -32,7 +32,7 @@ def lambda_handler(event, context):
 
     logger = logging.getLogger(__name__)
 
-    logger.info(f'Boto3 Version: {boto3.__version__}')
+    logger.info(f'Boto3 Current Version: {boto3.__version__}')
 
     environment = getEnvironment()
 
@@ -56,7 +56,7 @@ def getEnvironment():
 
 def putDynamoItem(tableName, itemKey):
     dynamoClient = boto3.client('dynamodb')
-
+    
     response = dynamoClient.put_item(
         TableName=tableName,
         Item={

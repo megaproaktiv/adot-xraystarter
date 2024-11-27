@@ -15,6 +15,7 @@ const dynamodb = new AWS.DynamoDB();
 
 const lambdaHandler = async (event: any, context: any) =>
 {
+    console.log("Hello");
     console.log("Reading options from event:\n", inspect(event, {depth: 5}));
     var message = event['Records'][0]['Sns']['Message']
     message.replace(/\"/g, '"')

@@ -1,0 +1,464 @@
+<mxfile host="65bd71144e" pages="2">
+    <diagram id="diagramid" name="Diagram">
+        <mxGraphModel dx="2387" dy="1320" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="adotstartertsServiceRole9ACAE7F8" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="250" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="adotstartertsServiceRoleDefaultPolicy73937D05" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="300" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="adotstarterts5C66C01C" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="200" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="adotstartertsLogRetention0F4A1E04" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#aaaaaa;gradientDirection=north;fillColor=#aaaaaa;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.logretention;" parent="1" vertex="1">
+                    <mxGeometry y="50" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="adotstartertsAllowInvokeadotstarterautos3eventTopicDDD14269BD3B41AC" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.policy;" parent="1" vertex="1">
+                    <mxGeometry y="450" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="adotstartertss3eventTopicBF3F9440" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+                    <mxGeometry y="350" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="50" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="1" vertex="1">
+                    <mxGeometry x="250" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="100" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="adotstarterpyServiceRoleFE0E36B6" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="550" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="adotstarterpyServiceRoleDefaultPolicyDA47C88B" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="400" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="adotstarterpy24CEA125" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="500" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="adotstarterpyLogRetentionCBAF2A9B" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#aaaaaa;gradientDirection=north;fillColor=#aaaaaa;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.logretention;" parent="1" vertex="1">
+                    <mxGeometry y="150" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="adotstarterpyAllowInvokeadotstarterautos3eventTopicDDD142694CCC54DF" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.policy;" parent="1" vertex="1">
+                    <mxGeometry y="650" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="adotstarterpys3eventTopic92A5C937" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+                    <mxGeometry y="550" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="adotstartergoServiceRole95FCAA3F" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="750" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="adotstartergoServiceRoleDefaultPolicy40E91988" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="850" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="adotstartergo2987B222" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="600" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="adotstartergoLogRetention337F55B9" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#aaaaaa;gradientDirection=north;fillColor=#aaaaaa;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.logretention;" parent="1" vertex="1">
+                    <mxGeometry y="250" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="adotstartergoAllowInvokeadotstarterautos3eventTopicDDD14269C4D961C7" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.policy;" parent="1" vertex="1">
+                    <mxGeometry y="850" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="adotstartergos3eventTopicA35FF2D5" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+                    <mxGeometry y="750" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="incoming0B397865" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="650" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="incomingNotificationsC0478269" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#aaaaaa;gradientDirection=north;fillColor=#aaaaaa;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3bucketnotifications;" parent="1" vertex="1">
+                    <mxGeometry y="1050" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="s3eventTopicB05B6E9B" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="700" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="s3eventTopicPolicyC471AF1E" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+                    <mxGeometry y="950" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.role;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="1050" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F54749;gradientDirection=north;fillColor=#C7131F;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1100" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="1000" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="items07D08F4B" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="450" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="CDKMetadata" style="outlineConnect=0;fontColor=#B3B3B3;gradientColor=#aaaaaa;gradientDirection=north;fillColor=#aaaaaa;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cdk;" parent="1" vertex="1">
+                    <mxGeometry y="1250" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="adotstartertsServiceRole9ACAE7F8|adotstartertsServiceRoleDefaultPolicy73937D05" value="Roles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="3" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="311.6666666666667"/>
+                            <mxPoint x="488" y="285"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstartertsServiceRoleDefaultPolicy73937D05" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="3" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="338.3333333333333"/>
+                            <mxPoint x="486" y="659.375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstartertsServiceRoleDefaultPolicy73937D05" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="3" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="325"/>
+                            <mxPoint x="486" y="465"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstarterts5C66C01C" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="4" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="238.33333333333334"/>
+                            <mxPoint x="488" y="653.125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstarterts5C66C01C" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="4" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="225"/>
+                            <mxPoint x="488" y="458.3333333333333"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartertsServiceRole9ACAE7F8|adotstarterts5C66C01C" value="Role" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="4" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="211.66666666666666"/>
+                            <mxPoint x="488" y="265"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterts5C66C01C|adotstartertsLogRetention0F4A1E04" value="LogGroupName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="5" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="85"/>
+                            <mxPoint x="238" y="211.66666666666666"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A|adotstartertsLogRetention0F4A1E04" value="ServiceToken" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="5" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="65"/>
+                            <mxPoint x="238" y="111.66666666666667"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstartertsAllowInvokeadotstarterautos3eventTopicDDD14269BD3B41AC" value="SourceArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="6" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="485"/>
+                            <mxPoint x="236" y="709.375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterts5C66C01C|adotstartertsAllowInvokeadotstarterautos3eventTopicDDD14269BD3B41AC" value="FunctionName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="6" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="465"/>
+                            <mxPoint x="238" y="238.33333333333334"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstartertss3eventTopicBF3F9440" value="TopicArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="7" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="385"/>
+                            <mxPoint x="238" y="703.125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterts5C66C01C|adotstartertss3eventTopicBF3F9440" value="Endpoint" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="7" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="365"/>
+                            <mxPoint x="236" y="225"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB|LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB" value="Roles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="9" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="25"/>
+                            <mxPoint x="488" y="65"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB|LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A" value="Role" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="10" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="125"/>
+                            <mxPoint x="488" y="85"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterpyServiceRoleFE0E36B6|adotstarterpyServiceRoleDefaultPolicyDA47C88B" value="Roles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="12" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="425"/>
+                            <mxPoint x="488" y="565"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstarterpyServiceRoleDefaultPolicyDA47C88B" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="12" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="438.3333333333333"/>
+                            <mxPoint x="484" y="665.625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstarterpyServiceRoleDefaultPolicyDA47C88B" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="12" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="411.6666666666667"/>
+                            <mxPoint x="484" y="471.6666666666667"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstarterpy24CEA125" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="13" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="538.3333333333334"/>
+                            <mxPoint x="482" y="671.875"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstarterpy24CEA125" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="13" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="511.6666666666667"/>
+                            <mxPoint x="484" y="478.33333333333337"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterpyServiceRoleFE0E36B6|adotstarterpy24CEA125" value="Role" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="13" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="525"/>
+                            <mxPoint x="488" y="585"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterpy24CEA125|adotstarterpyLogRetentionCBAF2A9B" value="LogGroupName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="14" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="185"/>
+                            <mxPoint x="238" y="511.6666666666667"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A|adotstarterpyLogRetentionCBAF2A9B" value="ServiceToken" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="14" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="165"/>
+                            <mxPoint x="236" y="125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstarterpyAllowInvokeadotstarterautos3eventTopicDDD142694CCC54DF" value="SourceArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="15" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="685"/>
+                            <mxPoint x="232" y="721.875"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterpy24CEA125|adotstarterpyAllowInvokeadotstarterautos3eventTopicDDD142694CCC54DF" value="FunctionName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="15" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="665"/>
+                            <mxPoint x="238" y="538.3333333333334"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstarterpys3eventTopic92A5C937" value="TopicArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="16" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="585"/>
+                            <mxPoint x="234" y="715.625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstarterpy24CEA125|adotstarterpys3eventTopic92A5C937" value="Endpoint" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="16" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="565"/>
+                            <mxPoint x="236" y="525"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartergoServiceRole95FCAA3F|adotstartergoServiceRoleDefaultPolicy40E91988" value="Roles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="18" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="888.3333333333334"/>
+                            <mxPoint x="488" y="785"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstartergoServiceRoleDefaultPolicy40E91988" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="18" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="875"/>
+                            <mxPoint x="486" y="690.625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstartergoServiceRoleDefaultPolicy40E91988" value="Resource" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="18" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="861.6666666666666"/>
+                            <mxPoint x="488" y="491.66666666666674"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|adotstartergo2987B222" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="19" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="314" y="625"/>
+                            <mxPoint x="482" y="678.125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="items07D08F4B|adotstartergo2987B222" value="Variable" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="19" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="611.6666666666666"/>
+                            <mxPoint x="486" y="485.00000000000006"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartergoServiceRole95FCAA3F|adotstartergo2987B222" value="Role" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="19" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="638.3333333333334"/>
+                            <mxPoint x="488" y="765"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartergo2987B222|adotstartergoLogRetention337F55B9" value="LogGroupName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="20" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="285"/>
+                            <mxPoint x="238" y="611.6666666666666"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A|adotstartergoLogRetention337F55B9" value="ServiceToken" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="20" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="265"/>
+                            <mxPoint x="238" y="138.33333333333334"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstartergoAllowInvokeadotstarterautos3eventTopicDDD14269C4D961C7" value="SourceArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="21" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="885"/>
+                            <mxPoint x="234" y="734.375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartergo2987B222|adotstartergoAllowInvokeadotstarterautos3eventTopicDDD14269C4D961C7" value="FunctionName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="21" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="865"/>
+                            <mxPoint x="238" y="638.3333333333334"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|adotstartergos3eventTopicA35FF2D5" value="TopicArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="22" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="785"/>
+                            <mxPoint x="232" y="728.125"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="adotstartergo2987B222|adotstartergos3eventTopicA35FF2D5" value="Endpoint" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="22" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="765"/>
+                            <mxPoint x="236" y="625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|incomingNotificationsC0478269" value="BucketName" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="24" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="64" y="1075"/>
+                            <mxPoint x="150" y="950"/>
+                            <mxPoint x="400" y="950"/>
+                            <mxPoint x="488" y="696.875"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|incomingNotificationsC0478269" value="TopicArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="24" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="1061.6666666666667"/>
+                            <mxPoint x="238" y="746.875"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691|incomingNotificationsC0478269" value="ServiceToken" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="24" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="1088.3333333333333"/>
+                            <mxPoint x="238" y="1025"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="s3eventTopicB05B6E9B|s3eventTopicPolicyC471AF1E" value="Resource&#10;Topics" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="26" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="965"/>
+                            <mxPoint x="236" y="740.625"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="incoming0B397865|s3eventTopicPolicyC471AF1E" value="aws:SourceArn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="26" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="62" y="985"/>
+                            <mxPoint x="150" y="800"/>
+                            <mxPoint x="400" y="800"/>
+                            <mxPoint x="484" y="684.375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC|BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36" value="Roles" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="28" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="1125"/>
+                            <mxPoint x="488" y="1085"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC|BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691" value="Role" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#EA6B66;noEdgeStyle=1;orthogonal=1;" parent="1" source="29" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="312" y="1025"/>
+                            <mxPoint x="488" y="1065"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

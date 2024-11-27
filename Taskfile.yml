@@ -1,6 +1,6 @@
 # https://taskfile.dev
 
-version: '3'
+version: "3"
 
 vars:
   CDK_VER: 2.54.0
@@ -11,30 +11,42 @@ env:
   DOCKER_SCAN_SUGGEST: false
 
 includes:
-  app: 
+  app:
     taskfile: ./lambda/go
     optional: true
     internal: true
     dir: ./lambda/go
 
 tasks:
-
   install:
     desc: install tools
     cmds:
       - brew install colima
 
+  init:
+    desc: init project - install npm packages for lambda once
+    cmds:
+      - cd lambda/ts && npm install
 
+  update:
+    desc: update npm packages
+    cmds:
+      - npm outdated
+      - npm update
+      - npm install -g npm-check-updates
+      - ncu -u
+      - npm install
+    ignore_error: true
 
   bootstrap:
     deps: [app:build]
     desc: CDK bootstrap (for beginners)
     vars:
-      ALIAS: 
-        sh:  aws iam list-account-aliases --query "AccountAliases[0]" --output=text
-    
+      ALIAS:
+        sh: aws iam list-account-aliases --query "AccountAliases[0]" --output=text
+
     cmds:
-      - npx cdk@{{.CDK_VER}}  bootstrap 
+      - npx cdk@{{.CDK_VER}}  bootstrap
 
   colima:
     desc: 1) start colima docker

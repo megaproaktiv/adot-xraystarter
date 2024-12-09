@@ -2,8 +2,6 @@
 
 version: "3"
 
-vars:
-  CDK_VER: 2.54.0
 env:
   DOCKER_BUILDKIT: 0
   COMPOSE_DOCKER_CLI_BUILD: 0
@@ -46,7 +44,7 @@ tasks:
         sh: aws iam list-account-aliases --query "AccountAliases[0]" --output=text
 
     cmds:
-      - npx cdk@{{.CDK_VER}}  bootstrap
+      - cdk  bootstrap
 
   colima:
     desc: 1) start colima docker
@@ -57,13 +55,13 @@ tasks:
     deps: [app:build]
     desc: 2) Deploy cdk without asking - needs docker
     cmds:
-      - npx cdk@{{.CDK_VER}} deploy --require-approval never
+      - cdk deploy --require-approval never
     silent: true
 
   diff:
     desc: cdk diff (with all env vars)
     cmds:
-      - npx cdk@{{.CDK_VER}} diff --require-approval never
+      - cdk diff --require-approval never
     silent: true
 
   traffic:

@@ -1,0 +1,39 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      golang: 1.16
+      nodejs: 14
+    commands:
+      - echo Installing CDK..
+      - npm install cdk -g
+      - npm i
+      - cd lambda/ts && npm install
+  build:
+    commands:
+      - echo Unit Testing infra...
+      - cd $CODEBUILD_SRC_DIR/serverless-standard/cdk2-lambda-go/infra
+      - npm run test
+      - echo Build GO
+      - cd lambda/go && env GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -o dist/main main/main.go
+      - cd lambda/go && chmod +x dist/main
+      - cd lambda/go && mv dist/main dist/bootstrap
+      - cd lambda/go && cd dist && zip main.zip bootstrap            
+
+  post_build:
+    commands:
+      - cd $CODEBUILD_SRC_DIR/architectures/serverless/infra
+      - echo Destroying infra
+      - cdk destroy -f
+      
+
+reports:
+  gotest_reports:
+    files:
+      - report-infra-cdk2-lambda-go.xml
+      - report-integ-cdk2-lambda-go.xml
+    base-directory: $CODEBUILD_SRC_DIR/testreports
+    file-format: JUNITXML
+
+ 

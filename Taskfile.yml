@@ -58,6 +58,13 @@ tasks:
       - cdk deploy --require-approval never
     silent: true
 
+  destroy:
+    deps: [app:build]
+    desc: 3) Destroy cdk without asking - needs docker
+    cmds:
+      - cdk destroy --require-approval never
+    silent: true
+
   diff:
     desc: cdk diff (with all env vars)
     cmds:
